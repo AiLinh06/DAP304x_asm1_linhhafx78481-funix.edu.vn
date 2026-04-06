@@ -53,4 +53,4 @@ After processing, the program will generate a result file in the same directory 
 
 ## Author
 
-Developed by [Your Name] for the DAP304x Assignment.
+Developed by AiLinh for the DAP304x Assignment.
