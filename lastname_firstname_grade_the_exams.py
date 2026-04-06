@@ -85,7 +85,7 @@ def file_process():
             print("\nTotal valid lines: ", valid_lines)
             print("\nTotal invalid lines: ", invalid_lines)
             print("\nTotal student of high scores: ", high_score)
-            print("\nAverage Score: ", round(sum(df['Score'])/len(df['Score']), 2))
+            print("\nAverage Score: ", round(df['Score'].mean(), 2))
             print("\nHighest Score: ", max(df['Score']))
             print("\nLowest Score:", min(df['Score']))
             print("\nRange of Scores: ", max(df['Score'])-min(df['Score']))
